@@ -1,10 +1,11 @@
 import "./App.css";
+import StopWatch from "./components/StopWatch/StopWatch";
 
 function App() {
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <div className="App">
+      <StopWatch />
+    </div>
   );
 }
 
